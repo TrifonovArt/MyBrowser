@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.progweb.mybrowser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SlaidMobile"
+            android:label="@string/title_activity_slaid_mobile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Solad"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Category"
+            android:label="@string/title_activity_category"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Categorys"
+            android:label="@string/title_activity_categorys"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Choice"
+            android:label="@string/title_activity_choice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TabletSlaid"
+            android:label="@string/title_activity_tablet_slaid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_del"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListDownload"
+            android:label="@string/title_activity_list_download"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MobileSlaiderPDF"
+            android:label="@string/title_activity_mobile_slaider_pdf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListNumberPDF"
+            android:label="@string/title_activity_mobile_slaider_pdf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Slaider_menu"
+            android:label="@string/title_activity_slaider_menu"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

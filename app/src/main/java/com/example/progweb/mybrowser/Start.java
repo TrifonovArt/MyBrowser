@@ -14,7 +14,7 @@ import java.util.TimerTask;
 public class Start extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 6000;
     Timer t = new Timer();
-    // test commit
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
